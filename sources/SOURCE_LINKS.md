@@ -40,6 +40,7 @@ Central link registry for recovery, provenance, external references, and reposit
 | Source record | Stable repository link | Scope |
 |---|---|---|
 | Source import manifest, 2026-08-05 | [Open manifest](IMPORT_MANIFEST_2026-08-05.md) | Maps the three uploaded text records to their repository integrations and states the provenance ruling |
+| Recent project chat registry, 2026-08-05 | [Open registry](RECENT_PROJECT_CHATS_2026-08-05.md) | Catalogs recently surfaced chats, image-bearing conversations, ending tags, duplicate branches, and unresolved bookmark IDs |
 | Emberstates Project Spreadsheet summary | [Open summary](emberstates-project-spreadsheet-summary.md) | Workbook sheets, counts, identifiers, archive families, and missing sandbox limitation |
 | Emberstates Data Recovery summary | [Open summary](emberstates-data-recovery-summary.md) | Indexed artifacts, recovered links, classifications, and recovery queue |
 | Emberstates Recovery Workbook summary | [Open summary](emberstates-recovery-workbook-summary.md) | Workbook attachment record, sheet descriptions, and recovery-state rules |
@@ -60,6 +61,7 @@ Central link registry for recovery, provenance, external references, and reposit
 - [Integration log](INTEGRATION_LOG.md)
 - [Machine-readable source registry](source-links.json)
 - [Source import manifest](IMPORT_MANIFEST_2026-08-05.md)
+- [Recent project chat registry](RECENT_PROJECT_CHATS_2026-08-05.md)
 - [Data recovery summary](emberstates-data-recovery-summary.md)
 - [Project spreadsheet summary](emberstates-project-spreadsheet-summary.md)
 - [Recovery workbook summary](emberstates-recovery-workbook-summary.md)
@@ -71,5 +73,6 @@ Central link registry for recovery, provenance, external references, and reposit
 3. Keep core Emberstates, Emberstates-related, Hells Branch/runtime, and connected external material separately classified until reviewed.
 4. Do not promote image references, filenames, bookmarks, generated-play material, or inventory rows into canon without readable evidence and explicit approval.
 5. Historical ChatGPT sandbox ZIP paths are provenance records, not recoverable binaries by filename alone.
+6. Do not fabricate individual ChatGPT conversation URLs when only the project-level doorway is available.
 
 _Last updated: 2026-08-05._
