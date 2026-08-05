@@ -43,6 +43,7 @@ Central link registry for recovery, provenance, external references, and reposit
 - [Recovery overview](../recovery/README.md)
 - [Recovery review](../recovery/EMBERSTATES_REVIEW__2026-08-02.md)
 - [Source notes](README.md)
+- [Integration log](INTEGRATION_LOG.md)
 - [Data recovery summary](emberstates-data-recovery-summary.md)
 - [Project spreadsheet summary](emberstates-project-spreadsheet-summary.md)
 - [Recovery workbook summary](emberstates-recovery-workbook-summary.md)
