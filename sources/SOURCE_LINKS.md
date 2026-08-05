@@ -4,6 +4,11 @@ Central link registry for recovery, provenance, external references, and reposit
 
 > A link proves that a source surface was identified. It does not, by itself, establish canon authority or confirm that every referenced artifact remains accessible.
 
+## Registry formats
+
+- Human-readable registry: this file
+- Machine-readable registry: [`source-links.json`](source-links.json)
+
 ## Primary project surfaces
 
 | Source | Link | Role | Status |
@@ -53,6 +58,7 @@ Central link registry for recovery, provenance, external references, and reposit
 - [Recovery review](../recovery/EMBERSTATES_REVIEW__2026-08-02.md)
 - [Source notes](README.md)
 - [Integration log](INTEGRATION_LOG.md)
+- [Machine-readable source registry](source-links.json)
 - [Source import manifest](IMPORT_MANIFEST_2026-08-05.md)
 - [Data recovery summary](emberstates-data-recovery-summary.md)
 - [Project spreadsheet summary](emberstates-project-spreadsheet-summary.md)
