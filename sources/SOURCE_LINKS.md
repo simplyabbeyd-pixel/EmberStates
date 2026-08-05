@@ -31,9 +31,18 @@ Central link registry for recovery, provenance, external references, and reposit
 
 | Artifact | Link | Notes |
 |---|---|---|
+| Emberstates_Master_Recovery_Index_v3_recent_images.xlsx | [Open repository workbook](../recovery/Emberstates_Master_Recovery_Index_v3_recent_images.xlsx) | Current repository candidate with recent image sweep and 25 artifact records; proposed through integration branch until merged |
 | Emberstates_Master_Recovery_Index_v2.xlsx | https://drive.google.com/file/d/14nLpbkoMO5JVbcLsY6eUqBcKxbX1mxh6 | Current richer Drive workbook in 01_PROJECT_HUB |
 | Emberstates_Master_Recovery_Index.xlsx | https://drive.google.com/file/d/1vI1y94ExdEJE-7c4EfDbNa0B07KhcOfn | Preserved master index copy in 01_PROJECT_HUB |
-| Repository recovery workbook | https://github.com/simplyabbeyd-pixel/EmberStates/blob/main/recovery/Emberstates_Master_Recovery_Index.xlsx | Versioned repository copy; verify binary integrity before treating as authoritative |
+| Repository recovery workbook | https://github.com/simplyabbeyd-pixel/EmberStates/blob/main/recovery/Emberstates_Master_Recovery_Index.xlsx | Older versioned repository copy; verify binary integrity before treating as authoritative |
+
+## Recent image-source integration
+
+| Source record | Stable repository link | Scope |
+|---|---|---|
+| Recent Image Sweep, 2026-08-05 | [Open provenance note](RECENT_IMAGE_SWEEP_2026-08-05.md) | Five image-backed assets, exact source filenames, extracted tag blocks, characters, locations, unresolved naming variants, and source limitations |
+| Recovery workbook v3 | [Open workbook](../recovery/Emberstates_Master_Recovery_Index_v3_recent_images.xlsx) | Adds the Recent Image Sweep sheet and expands the artifact registry from 20 to 25 records |
+| EmberStates ChatGPT project | https://chatgpt.com/g/g-p-6a6e90a2e4448191bd49c6bd971b9887-emberstates/project | Access-dependent original project surface; individual image-chat URLs were not exposed by retrieval |
 
 ## Imported ChatGPT recovery summaries
 
@@ -56,6 +65,7 @@ Central link registry for recovery, provenance, external references, and reposit
 - [Documentation index](../docs/INDEX.md)
 - [Recovery overview](../recovery/README.md)
 - [Recovery review](../recovery/EMBERSTATES_REVIEW__2026-08-02.md)
+- [Recent image sweep](RECENT_IMAGE_SWEEP_2026-08-05.md)
 - [Source notes](README.md)
 - [Integration log](INTEGRATION_LOG.md)
 - [Machine-readable source registry](source-links.json)
@@ -71,5 +81,6 @@ Central link registry for recovery, provenance, external references, and reposit
 3. Keep core Emberstates, Emberstates-related, Hells Branch/runtime, and connected external material separately classified until reviewed.
 4. Do not promote image references, filenames, bookmarks, generated-play material, or inventory rows into canon without readable evidence and explicit approval.
 5. Historical ChatGPT sandbox ZIP paths are provenance records, not recoverable binaries by filename alone.
+6. When an individual source-chat URL or timestamp is not exposed, record that limitation instead of manufacturing a stable link.
 
 _Last updated: 2026-08-05._
