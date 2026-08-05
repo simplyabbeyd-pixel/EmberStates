@@ -1,0 +1,179 @@
+openapi: 3.1.0
+info:
+  title: R1 Emberglass Creature Reference Actions
+  version: 1.1.0
+  description: >-
+    Safe routing for private creature-reference metadata, morphology analysis,
+    anatomy notes, elemental classification, and size mapping. External 3D
+    assets remain linked references unless their licenses and creator permissions
+    explicitly allow storage or reuse.
+servers:
+  - url: https://example.com
+    description: Placeholder only; replace before live execution.
+paths:
+  /emberglass/model-source/register:
+    post:
+      operationId: registerModelSource
+      summary: Register an external 3D reference collection
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ModelSourceRegistrationRequest'
+      responses:
+        '200':
+          description: Source prepared or registered
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+  /emberglass/creature-profile/analyze:
+    post:
+      operationId: analyzeCreatureProfile
+      summary: Analyze type, element, biology, anatomy, and morphology
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreatureProfileRequest'
+      responses:
+        '200':
+          description: Structured, evidence-labeled creature profile
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+  /emberglass/size-map:
+    post:
+      operationId: calculateSizeMap
+      summary: Map model units to a selected real-world dimension
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SizeMapRequest'
+      responses:
+        '200':
+          description: Calculated scale conversion
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+components:
+  schemas:
+    ModelSourceRegistrationRequest:
+      type: object
+      additionalProperties: false
+      required: [source_url, source_name, intended_uses]
+      properties:
+        source_url:
+          type: string
+          format: uri
+        source_name:
+          type: string
+        intended_uses:
+          type: array
+          uniqueItems: true
+          items:
+            enum: [taxonomy, elemental_classification, biology_reference, anatomy_reference, morphology_reference, proportion_reference, size_mapping, movement_reference, private_3d_database]
+        metadata_only:
+          type: boolean
+          default: true
+        canon_status:
+          enum: [external_reference, candidate, approved_reference]
+          default: external_reference
+        dry_run:
+          type: boolean
+          default: true
+    CreatureProfileRequest:
+      type: object
+      additionalProperties: false
+      required: [subject_name, observations]
+      properties:
+        subject_name:
+          type: string
+        source_urls:
+          type: array
+          items:
+            type: string
+            format: uri
+        observations:
+          type: array
+          items:
+            $ref: '#/components/schemas/EvidenceStatement'
+        elemental_affinities:
+          type: array
+          items:
+            type: string
+        body_plan:
+          type: string
+        locomotion:
+          type: array
+          items:
+            type: string
+        anatomy_notes:
+          type: array
+          items:
+            type: string
+        biology_notes:
+          type: array
+          items:
+            type: string
+        allow_speculation:
+          type: boolean
+          default: true
+        dry_run:
+          type: boolean
+          default: true
+    SizeMapRequest:
+      type: object
+      additionalProperties: false
+      required: [subject_name, reference_dimension, reference_size_meters, model_dimension_units]
+      properties:
+        subject_name:
+          type: string
+        reference_dimension:
+          enum: [height, body_length, total_length, shoulder_height, wingspan, width, diameter, tail_length, custom]
+        reference_size_meters:
+          type: number
+          exclusiveMinimum: 0
+        model_dimension_units:
+          type: number
+          exclusiveMinimum: 0
+        confidence:
+          enum: [very_low, low, medium, high, verified]
+          default: medium
+    EvidenceStatement:
+      type: object
+      additionalProperties: false
+      required: [statement, evidence_type]
+      properties:
+        statement:
+          type: string
+        evidence_type:
+          enum: [directly_observed, source_metadata, canonical_reference, user_assertion, inferred, speculative]
+        source_url:
+          type: string
+          format: uri
+        confidence:
+          enum: [very_low, low, medium, high, verified]
+    ActionResult:
+      type: object
+      required: [status, summary, result]
+      properties:
+        status:
+          enum: [completed, prepared_only, needs_clarification, requires_authorization, requires_license_review, blocked]
+        summary:
+          type: string
+        result:
+          type: object
+          additionalProperties: true
+        warnings:
+          type: array
+          items:
+            type: string
+        next_tiny_step:
+          type: string
