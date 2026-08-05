@@ -30,6 +30,15 @@ Central link registry for recovery, provenance, external references, and reposit
 | Emberstates_Master_Recovery_Index.xlsx | https://drive.google.com/file/d/1vI1y94ExdEJE-7c4EfDbNa0B07KhcOfn | Preserved master index copy in 01_PROJECT_HUB |
 | Repository recovery workbook | https://github.com/simplyabbeyd-pixel/EmberStates/blob/main/recovery/Emberstates_Master_Recovery_Index.xlsx | Versioned repository copy; verify binary integrity before treating as authoritative |
 
+## Imported ChatGPT recovery summaries
+
+| Source record | Stable repository link | Scope |
+|---|---|---|
+| Source import manifest, 2026-08-05 | [Open manifest](IMPORT_MANIFEST_2026-08-05.md) | Maps the three uploaded text records to their repository integrations and states the provenance ruling |
+| Emberstates Project Spreadsheet summary | [Open summary](emberstates-project-spreadsheet-summary.md) | Workbook sheets, counts, identifiers, archive families, and missing sandbox limitation |
+| Emberstates Data Recovery summary | [Open summary](emberstates-data-recovery-summary.md) | Indexed artifacts, recovered links, classifications, and recovery queue |
+| Emberstates Recovery Workbook summary | [Open summary](emberstates-recovery-workbook-summary.md) | Workbook attachment record, sheet descriptions, and recovery-state rules |
+
 ## External research and asset references
 
 | Source | Link | Classification |
@@ -44,6 +53,7 @@ Central link registry for recovery, provenance, external references, and reposit
 - [Recovery review](../recovery/EMBERSTATES_REVIEW__2026-08-02.md)
 - [Source notes](README.md)
 - [Integration log](INTEGRATION_LOG.md)
+- [Source import manifest](IMPORT_MANIFEST_2026-08-05.md)
 - [Data recovery summary](emberstates-data-recovery-summary.md)
 - [Project spreadsheet summary](emberstates-project-spreadsheet-summary.md)
 - [Recovery workbook summary](emberstates-recovery-workbook-summary.md)
