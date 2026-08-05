@@ -4,6 +4,8 @@ This repository is the recovery and organization hub for the **Emberstates** wor
 
 ## Recovery package
 
+- `AGENTS.md` - operating rules for future Codex/GitHub recovery passes
+- `docs/INDEX.md` - cross-surface documentation and source-anchor index
 - `recovery/README.md` - provenance, scope, current evidence, and known limitations
 - `recovery/EMBERSTATES_REVIEW__2026-08-02.md` - Drive-grounded review ruling for the compiled packet
 - `recovery/Emberstates_Master_Recovery_Index.xlsx` - six-sheet source and recovery index
