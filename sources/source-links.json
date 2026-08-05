@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "updated": "2026-08-05",
   "project": "EmberStates",
   "authority_note": "Source links establish provenance and navigation only. They do not establish canon authority.",
@@ -73,6 +73,41 @@
       "url": "https://drive.google.com/file/d/1vI1y94ExdEJE-7c4EfDbNa0B07KhcOfn",
       "classification": "recovery-workbook",
       "status": "preserved"
+    },
+    {
+      "id": "repository-recovery-workbook",
+      "label": "Repository recovery workbook",
+      "url": "https://github.com/simplyabbeyd-pixel/EmberStates/blob/main/recovery/Emberstates_Master_Recovery_Index.xlsx",
+      "classification": "recovery-workbook",
+      "status": "verify-binary-integrity"
+    },
+    {
+      "id": "source-import-manifest-2026-08-05",
+      "label": "Source import manifest, 2026-08-05",
+      "url": "https://github.com/simplyabbeyd-pixel/EmberStates/blob/main/sources/IMPORT_MANIFEST_2026-08-05.md",
+      "classification": "import-manifest",
+      "status": "live"
+    },
+    {
+      "id": "project-spreadsheet-summary",
+      "label": "Emberstates Project Spreadsheet summary",
+      "url": "https://github.com/simplyabbeyd-pixel/EmberStates/blob/main/sources/emberstates-project-spreadsheet-summary.md",
+      "classification": "imported-recovery-summary",
+      "status": "live"
+    },
+    {
+      "id": "data-recovery-summary",
+      "label": "Emberstates Data Recovery summary",
+      "url": "https://github.com/simplyabbeyd-pixel/EmberStates/blob/main/sources/emberstates-data-recovery-summary.md",
+      "classification": "imported-recovery-summary",
+      "status": "live"
+    },
+    {
+      "id": "recovery-workbook-summary",
+      "label": "Emberstates Recovery Workbook summary",
+      "url": "https://github.com/simplyabbeyd-pixel/EmberStates/blob/main/sources/emberstates-recovery-workbook-summary.md",
+      "classification": "imported-recovery-summary",
+      "status": "live"
     },
     {
       "id": "sketchfab-morphology-reference",
