@@ -11,7 +11,19 @@ The recovery packet currently tracks:
 5. Recovery Queue
 6. Sources & Notes
 
-The richer current workbook is the Drive/local `Emberstates_Master_Recovery_Index_v2.xlsx` in the shared Drive project hub. The GitHub workbook path remains `recovery/Emberstates_Master_Recovery_Index.xlsx`, but that binary should be replaced with the v2 workbook before treating the repo artifact as usable.
+The richer current workbook is the Drive/local `Emberstates_Master_Recovery_Index_v2.xlsx` in the shared Drive project hub. The GitHub workbook path remains [`recovery/Emberstates_Master_Recovery_Index.xlsx`](./Emberstates_Master_Recovery_Index.xlsx), but that binary should be replaced with the v2 workbook before treating the repo artifact as usable.
+
+## Source links
+
+- [Repository source index](../sources/README.md)
+- [Project spreadsheet summary](../sources/emberstates-project-spreadsheet-summary.md)
+- [Data recovery summary](../sources/emberstates-data-recovery-summary.md)
+- [Recovery workbook summary](../sources/emberstates-recovery-workbook-summary.md)
+- [Compiled recovery review](./EMBERSTATES_REVIEW__2026-08-02.md)
+- [Emberstates ChatGPT project](https://chatgpt.com/g/g-p-6a6e90a2e4448191bd49c6bd971b9887-emberstates/project)
+- [Shared Emberstates Drive folder](https://drive.google.com/drive/folders/1Ftz1SiQxImAbcLj2a7XlKNzhSUtPuoxZ)
+
+These links identify the evidence trail. A link or source mention does not independently establish canon.
 
 ## Current evidence base
 
