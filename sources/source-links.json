@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "updated": "2026-08-05",
   "project": "EmberStates",
   "authority_note": "Source links establish provenance and navigation only. They do not establish canon authority.",
@@ -61,11 +61,25 @@
       "status": "live"
     },
     {
+      "id": "recovery-index-v3-recent-images",
+      "label": "Emberstates_Master_Recovery_Index_v3_recent_images.xlsx",
+      "url": "https://github.com/simplyabbeyd-pixel/EmberStates/blob/integrate-recovery-v3-2026-08-05/recovery/Emberstates_Master_Recovery_Index_v3_recent_images.xlsx",
+      "classification": "recovery-workbook",
+      "status": "integration-branch"
+    },
+    {
+      "id": "recent-image-sweep-note",
+      "label": "Recent Image Sweep 2026-08-05",
+      "url": "https://github.com/simplyabbeyd-pixel/EmberStates/blob/integrate-recovery-v3-2026-08-05/sources/RECENT_IMAGE_SWEEP_2026-08-05.md",
+      "classification": "source-provenance-note",
+      "status": "integration-branch"
+    },
+    {
       "id": "recovery-index-v2",
       "label": "Emberstates_Master_Recovery_Index_v2.xlsx",
       "url": "https://drive.google.com/file/d/14nLpbkoMO5JVbcLsY6eUqBcKxbX1mxh6",
       "classification": "recovery-workbook",
-      "status": "current"
+      "status": "current-drive"
     },
     {
       "id": "recovery-index-preserved",
@@ -80,6 +94,18 @@
       "url": "https://sketchfab.com/account24332/collections/pokemon-41added501ab4230a2ec613f4f72c0d8",
       "classification": "external-research-reference",
       "status": "external-not-canon"
+    }
+  ],
+  "unresolved_source_links": [
+    {
+      "id": "individual-image-chat-links",
+      "description": "Direct ChatGPT chat URLs for the five surfaced image assets were not exposed by the connected retrieval surface.",
+      "status": "not-exposed"
+    },
+    {
+      "id": "image-added-timestamps",
+      "description": "Reliable project-added timestamps for the five surfaced image assets were not exposed.",
+      "status": "not-exposed"
     }
   ]
 }
