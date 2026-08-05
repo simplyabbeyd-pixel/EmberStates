@@ -2,6 +2,38 @@
 
 Dated record of source-map and recovery-control integrations. Entries document navigation and provenance changes only. They do not promote material into canon.
 
+## 2026-08-05 · Recovery workbook v3 and recent-image integration
+
+### Added
+
+- `recovery/Emberstates_Master_Recovery_Index_v3_recent_images.xlsx`
+- `sources/RECENT_IMAGE_SWEEP_2026-08-05.md`
+- Human-readable source links for the v3 workbook and image-sweep provenance note
+- Machine-readable source records and explicit unresolved-link entries
+
+### Surfaced image-backed records
+
+- Veyr — Move Mode
+- Zarea Triquel & Sage Willow dual character sheet
+- The Returning Light Lantern Bond scenario
+- Sage Willow visual character sheet
+- Sage Willow Wardrobe & Style Guide
+
+### Preserved limitations
+
+- Individual ChatGPT source-chat URLs were not exposed.
+- Reliable project-added timestamps were not exposed.
+- Original image binaries were not added during this pass.
+- Image summaries and tags remain recovery metadata, not automatic canon proof.
+- `Zarea Triquel` and `Zeraxis Triquel` remain an unresolved naming variant.
+
+### Source links
+
+- Integration branch: https://github.com/simplyabbeyd-pixel/EmberStates/tree/integrate-recovery-v3-2026-08-05
+- Recovery workbook v3: https://github.com/simplyabbeyd-pixel/EmberStates/blob/integrate-recovery-v3-2026-08-05/recovery/Emberstates_Master_Recovery_Index_v3_recent_images.xlsx
+- Recent image sweep: https://github.com/simplyabbeyd-pixel/EmberStates/blob/integrate-recovery-v3-2026-08-05/sources/RECENT_IMAGE_SWEEP_2026-08-05.md
+- ChatGPT project: https://chatgpt.com/g/g-p-6a6e90a2e4448191bd49c6bd971b9887-emberstates/project
+
 ## 2026-08-05 · Source-link integration
 
 ### Added or surfaced
