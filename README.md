@@ -2,18 +2,24 @@
 
 This repository is the recovery and organization hub for the **Emberstates** worldbuilding project.
 
+## Source doorway
+
+Start with the maintained [`sources/SOURCE_LINKS.md`](sources/SOURCE_LINKS.md) registry. It provides direct links to the repository, ChatGPT project, Google Drive hub, project folders, recovery workbooks, and external research references.
+
+- [Open the main Google Drive hub](https://drive.google.com/drive/folders/1Ftz1SiQxImAbcLj2a7XlKNzhSUtPuoxZ)
+- [Open the current Drive recovery workbook](https://drive.google.com/file/d/14nLpbkoMO5JVbcLsY6eUqBcKxbX1mxh6)
+- [Open the EmberStates ChatGPT project](https://chatgpt.com/g/g-p-6a6e90a2e4448191bd49c6bd971b9887-emberstates/project)
+- [Open the external Sketchfab morphology collection](https://sketchfab.com/account24332/collections/pokemon-41added501ab4230a2ec613f4f72c0d8)
+
 ## Recovery package
 
 - `AGENTS.md` - operating rules for future Codex/GitHub recovery passes
 - `docs/INDEX.md` - cross-surface documentation and source-anchor index
 - `sources/SOURCE_LINKS.md` - central registry of live, access-dependent, historical, and external source links
+- `sources/INTEGRATION_LOG.md` - dated record of source-link and recovery-map integrations
 - `recovery/README.md` - provenance, scope, current evidence, and known limitations
 - `recovery/EMBERSTATES_REVIEW__2026-08-02.md` - Drive-grounded review ruling for the compiled packet
 - `recovery/Emberstates_Master_Recovery_Index.xlsx` - six-sheet source and recovery index
-
-## Source registry
-
-Use [`sources/SOURCE_LINKS.md`](sources/SOURCE_LINKS.md) as the maintained link map for the ChatGPT project, Google Drive hub and five-folder structure, recovery workbooks, repository navigation, and external research references.
 
 ## Current Drive anchor
 
