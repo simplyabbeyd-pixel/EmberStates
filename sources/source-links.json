@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-08-05",
+  "project": "EmberStates",
+  "authority_note": "Source links establish provenance and navigation only. They do not establish canon authority.",
+  "sources": [
+    {
+      "id": "github-repository",
+      "label": "EmberStates GitHub repository",
+      "url": "https://github.com/simplyabbeyd-pixel/EmberStates",
+      "classification": "primary-project-surface",
+      "status": "live"
+    },
+    {
+      "id": "chatgpt-project",
+      "label": "EmberStates ChatGPT project",
+      "url": "https://chatgpt.com/g/g-p-6a6e90a2e4448191bd49c6bd971b9887-emberstates/project",
+      "classification": "primary-project-surface",
+      "status": "access-dependent"
+    },
+    {
+      "id": "drive-root",
+      "label": "EmberStates Google Drive root",
+      "url": "https://drive.google.com/drive/folders/1Ftz1SiQxImAbcLj2a7XlKNzhSUtPuoxZ",
+      "classification": "primary-project-surface",
+      "status": "live"
+    },
+    {
+      "id": "drive-project-hub",
+      "label": "01_PROJECT_HUB",
+      "url": "https://drive.google.com/drive/folders/1_IwGHM4YAitRTufQufR418JYuAlDFmWU",
+      "classification": "drive-folder",
+      "status": "live"
+    },
+    {
+      "id": "drive-canon-worldbuilding",
+      "label": "02_CANON_&_WORLD_BUILDING",
+      "url": "https://drive.google.com/drive/folders/16ZG1yYaD8H27qR3ilEtQKngbaeM3ANpZ",
+      "classification": "drive-folder",
+      "status": "live"
+    },
+    {
+      "id": "drive-asset-atlas",
+      "label": "03_ASSET_ATLAS_&_RESOURCES",
+      "url": "https://drive.google.com/drive/folders/1hpKBqFPNjZHrrHGeSZf3SfY68UhOUWl9",
+      "classification": "drive-folder",
+      "status": "live"
+    },
+    {
+      "id": "drive-chat-archives",
+      "label": "04_CHAT_ARCHIVES_&_RECOVERY",
+      "url": "https://drive.google.com/drive/folders/1omWhnnfCo9R-Y4tzF1RWlPAubHikVQYl",
+      "classification": "drive-folder",
+      "status": "live"
+    },
+    {
+      "id": "drive-dev-mechanics",
+      "label": "05_DEV_&_MECHANICS",
+      "url": "https://drive.google.com/drive/folders/1sF0eTNeGU4PIJtzJtzHLxzv33eKpAYsE",
+      "classification": "drive-folder",
+      "status": "live"
+    },
+    {
+      "id": "recovery-index-v2",
+      "label": "Emberstates_Master_Recovery_Index_v2.xlsx",
+      "url": "https://drive.google.com/file/d/14nLpbkoMO5JVbcLsY6eUqBcKxbX1mxh6",
+      "classification": "recovery-workbook",
+      "status": "current"
+    },
+    {
+      "id": "recovery-index-preserved",
+      "label": "Emberstates_Master_Recovery_Index.xlsx",
+      "url": "https://drive.google.com/file/d/1vI1y94ExdEJE-7c4EfDbNa0B07KhcOfn",
+      "classification": "recovery-workbook",
+      "status": "preserved"
+    },
+    {
+      "id": "sketchfab-morphology-reference",
+      "label": "Pokemon model collection on Sketchfab",
+      "url": "https://sketchfab.com/account24332/collections/pokemon-41added501ab4230a2ec613f4f72c0d8",
+      "classification": "external-research-reference",
+      "status": "external-not-canon"
+    }
+  ]
+}
