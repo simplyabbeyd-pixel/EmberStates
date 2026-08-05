@@ -6,9 +6,14 @@ This repository is the recovery and organization hub for the **Emberstates** wor
 
 - `AGENTS.md` - operating rules for future Codex/GitHub recovery passes
 - `docs/INDEX.md` - cross-surface documentation and source-anchor index
+- `sources/SOURCE_LINKS.md` - central registry of live, access-dependent, historical, and external source links
 - `recovery/README.md` - provenance, scope, current evidence, and known limitations
 - `recovery/EMBERSTATES_REVIEW__2026-08-02.md` - Drive-grounded review ruling for the compiled packet
 - `recovery/Emberstates_Master_Recovery_Index.xlsx` - six-sheet source and recovery index
+
+## Source registry
+
+Use [`sources/SOURCE_LINKS.md`](sources/SOURCE_LINKS.md) as the maintained link map for the ChatGPT project, Google Drive hub and five-folder structure, recovery workbooks, repository navigation, and external research references.
 
 ## Current Drive anchor
 
